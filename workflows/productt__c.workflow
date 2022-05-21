@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>email_message</fullName>
+        <ccEmails>vastava2002@gmail.com</ccEmails>
+        <description>email message</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>imnotsaurabh.srivastava0001@gmail.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/SupportCaseAssignmentNotification</template>
+    </alerts>
+    <alerts>
+        <fullName>email_sent</fullName>
+        <ccEmails>vastava2002@gmail.com</ccEmails>
+        <description>email sent</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>imnotsaurabh.srivastava0001@gmail.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/SupportCaseCreatedPhoneInquiries</template>
+    </alerts>
+    <alerts>
+        <fullName>new_email_sent</fullName>
+        <ccEmails>vastava2002@gmail.com</ccEmails>
+        <description>new email sent</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>imnotsaurabh.srivastava0001@gmail.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/SupportCaseAssignmentNotification</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>approved</fullName>
+        <field>approval_status__c</field>
+        <literalValue>success</literalValue>
+        <name>approved</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>submitted</fullName>
+        <field>approval_status__c</field>
+        <literalValue>pending</literalValue>
+        <name>submitted</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+</Workflow>

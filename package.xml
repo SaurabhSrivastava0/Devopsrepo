@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>displayquery</members>
+        <members>firstclass</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>Product</members>
+        <name>ApexPage</name>
+    </types>
+    <types>
+        <members>Ecommerce_Management_System</members>
+        <name>CustomApplication</name>
+    </types>
+    <types>
+        <members>order__c</members>
+        <members>product__c</members>
+        <members>productt__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>order__c</members>
+        <members>product__c</members>
+        <members>productt__c</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>E_commerce_Management_System_UtilityBar</members>
+        <members>my_home_page</members>
+        <members>productt_Record_Page</members>
+        <name>FlexiPage</name>
+    </types>
+    <types>
+        <members>order__c-order Layout</members>
+        <members>product__c-product Layout</members>
+        <members>productt__c-productt Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>Admin</members>
+        <name>Profile</name>
+    </types>
+    <types>
+        <members>product_management</members>
+        <name>Queue</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>Report</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>ValidationRule</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>Workflow</name>
+    </types>
+    <version>54.0</version>
+</Package>
